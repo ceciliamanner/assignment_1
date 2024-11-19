@@ -1,0 +1,117 @@
+
+ header{
+     display: flex;
+     flex-direction: column;
+     text-align: center;
+     width: 100%;
+     padding: var(--spacing-xlarge);
+     border-top: 8px solid var(--color-primary);
+ }
+ .header-icons{
+    display: flex;
+    justify-content: end;
+    gap: var(--spacing-medium);
+}
+
+ h1{
+     padding: var(--spacing-medium);
+ }
+ .navbar__list {
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     padding-top: var(--spacing-xlarge);
+     width: 100%;
+     height: 6vh;
+     gap: 5rem; 
+ }
+ .navbar__link{
+     color: var(--color-foreground);
+ 
+ }
+
+main {
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 2px solid var(--color-primary);
+}
+h2 {
+    margin-top: var(--spacing-xlarge);
+    text-align: center;
+    padding-bottom: var(--spacing-xlarge);
+    
+}
+.image-product{
+    width: 150px;
+    height: 150px;
+ }
+
+ .basket-section{
+    display: flex;
+    flex-direction: row;
+ }
+
+ .product-information__list{
+    display: flex;
+    flex-direction: row;
+    gap: var(--spacing-xlarge);
+    align-items: center;
+ }
+ .quantity-input {
+    width: 40px;
+ }
+
+ /* the form */
+
+.order-section{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: var(--spacing-medium);
+}
+h3{
+    padding-bottom: var(--spacing-medium);
+    font-size: large;
+}
+
+.order-input{ 
+ padding: var(--spacing-medium);
+ margin-bottom: var(--spacing-small);
+ width: 800px;
+
+}
+
+.term-section{
+    width: 800px;
+    padding: var(--spacing-medium);
+}
+
+button{
+    margin-top: var(--spacing-xxlarge);
+    padding: var(--spacing-medium);
+    background-color: var(--color-background);
+}
+button:hover{
+    cursor: pointer;
+}
+
+ /* footer */
+ footer {
+    display: flex;
+    padding: var(--spacing-medium);
+    justify-content:space-around;  
+    width: 100%;
+ }
+
+ footer:hover{
+    cursor: pointer;
+ }
+
+ h4 {
+    padding-bottom: var(--spacing-small);
+ }
+ a{
+    color: var(--color-foreground);
+ }

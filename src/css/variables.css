@@ -1,0 +1,14 @@
+:root {
+    --color-foreground: #000000; 
+    --color-background: #ffffff; 
+
+    --color-primary: #ffa600d6;
+
+    /* spacing */ 
+    --spacing-small: 0.5rem;
+    --spacing-medium: 1rem;
+    --spacing-large: 1.5rem;
+    --spacing-xlarge: 2rem;
+    --spacing-xxlarge: 3rem;
+
+}
