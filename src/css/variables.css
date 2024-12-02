@@ -1,7 +1,6 @@
 :root {
     --color-foreground: #000000; 
     --color-background: #ffffff; 
-
     --color-primary: #ffa600d6;
 
     /* spacing */ 
@@ -12,3 +11,12 @@
     --spacing-xxlarge: 3rem;
 
 }
+
+a {
+    color: var(--color-foreground);
+}
+ 
+@font-face {
+     font-family: 'roboto';
+     src: url(../assets/fonts/Roboto-Regular.ttf);
+} 
