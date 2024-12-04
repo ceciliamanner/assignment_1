@@ -34,7 +34,7 @@ Easy-to-use form with various input types.
 Simple links to move seamlessly between the prodcut details and order form pages. 
 
 ## Licese
-This project is licensed under MII License 
+This project is licensed under MIT License 
 
 ## Contact 
 If you have any questions or suggestions, feel free to reach out to me at [ceciliamannerr@gmail.com].
